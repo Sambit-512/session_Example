@@ -9,6 +9,6 @@
 %>
 <h2>Welcome, <%= name %></h2>
 <a href="home.jsp">Home</a> &nbsp;&nbsp;
-<a href="profile.jsp">About</a> 
+<a href="profile.jsp">About-us</a> 
 </body>
 </html>

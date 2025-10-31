@@ -19,6 +19,8 @@ public class login_Controlller extends HttpServlet {
         String password = request.getParameter("password");
        System.out.println(email);
        System.out.println(password);
+       System.out.println(email);
+       System.out.println(password);
         if (email.equals("sambitgiri2002@gmail.com") && password.equals("123")) {
             request.setAttribute("name_key", "sambit");
             RequestDispatcher rd = request.getRequestDispatcher("home.jsp");
